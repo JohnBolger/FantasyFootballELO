@@ -1,1 +1,1 @@
-# FantasyFootballELO
+# Fantasy Football Manager Rating
