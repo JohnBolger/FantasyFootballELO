@@ -20,12 +20,12 @@ Elo vs median:
 Manager Rating:
 ![](Readme/mrating.PNG)
 
-The original equation that I started with equally weighs ELO for the performance vs opponent and performance vs median (above), so the formula was just the basic average of the two ratings(α=0.5). I decided to write the equation in a more general form with α being the determining factor for the weight. I believe the optimal α will be between 0.15 and 0.35, which would mean performance vs median is much more indicative of success than performance vs opponent.  
+The original equation that I started with equally weighs Elo for the performance vs opponent and performance vs median (above), so the formula was just the basic average of the two ratings(α=0.5). I decided to write the equation in a more general form with α being the determining factor for the weight. I believe the optimal α will be between 0.15 and 0.35, which would mean performance vs median is much more indicative of success than performance vs opponent.  
 
 Mean Regression Rate (MRR):
 ![](Readme/mrr.PNG)
 
-I got this idea from FiveThirtyEight’s NFL game predictions.
+I got this idea from FiveThirtyEight’s NFL game predictions. In this equation, β is a value between 0 and 1 that regression each rating to the mean at the beginning of each season.
 
 https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/
 
