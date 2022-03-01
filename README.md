@@ -4,10 +4,10 @@
 ## Inspiration:
 I’ve noticed, in my years of competing in fantasy football, that the same handful of managers tend to be at the top of the league every year. Although luck certainly plays its part in the outcomes of matchups, in my observation, success in fantasy football is highly correlated with the skill on the manager. And the US agrees with my observation, fantasy football has been legal in the country due to skill component even when sports betting was overwhelmingly illegal. The model attempts to mitigate one specific factor of luck in fantasy football by weighing both performance vs opponent and performance vs median score of the league participants in that week. Opponent performance something a manager has no control over, so taking performance vs median into account is a crucial part of my model. It would be difficult to argue that a manager who consistently scores below the median and beats up on low scoring opponents each week is somehow better than a manager that consistently scores above the median and gets unlucky matchups. As for the importance of performance vs opponent, I have another example. Take, for instance, a manager who knows they are projected to lose their matchup. This manager will likely start a more volatile option who has the potential to “boom” than a consistent option who doesn’t have a “boom” in their range of outcomes. Additionally, the ultimate goal for a manager is to win their matchup, so this must be a point of emphasis in the model.
 
-Challenges:
+## Challenges:
 I collected and inputted all the data for this project manually into excel, which proved to be time-consuming. Additionally, I had to manually change each formula to calculate the correct Elo based on each matchup, which required a large amount of patience and attention to detail. I believe I could make the collection and calculation process much easier with a better understanding of python and API’s. I hope to rebuild this project in a more efficient way in the future. I found the motivation to overcome the time-consuming processes due to my interest in the topic and the outcome.
 
-Equations:
+## Equations:
 Elo vs opponent:
 〖V'〗_a=  1/(1+10^(〖(V〗_b-V_a)/400) )
 Elo vs median:
@@ -25,7 +25,7 @@ I got this idea from FiveThirtyEight’s NFL game predictions.
 https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/ 
 The NFL model has a mean regression rate of 1/3, fantasy football is much more volatile because each team is completely wiped out each after each season. I believe the optimal β value will be somewhere between 0.5 and .75 due to the high volatility.
 
-Results:
+## Results:
 The initial hypothesized model consisted of an equal weighing of performance equally and a .5 mean regression rate, i.e., α=0.5, β=0.5 (See ELO.5mrr.ipynb for full details). I decided to omit the first 3 weeks of season 1 so that the rating could at least slightly reflect manager skill.
 Full Accuracy:
  
@@ -47,7 +47,7 @@ Season 3: (65 games)
 
 My results if you are curious:
  
-Conclusion:
+## Conclusion:
 When I first saw the result, my disappointment was immeasurable. I grinded for who knows how many hours just to have my model predict outcomes worse than a coin flip.
 Actually, there’s about a 74% chance a coin flip predicts outcomes better than my model:
  
@@ -62,7 +62,7 @@ It may have messed up the ratings for the first half, but here are the results f
 Wow!
  
 This is significant.
-Future:
+## Future:
 I am confident in my methodology, and I would love to get my hands on more data to test my model. My plan is to first rebuild my model in python rather than excel, then familiarize myself with apis, so that I collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Hopefully, I can get permission to access different leagues to test the accuracy of the model.
 
 
