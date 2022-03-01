@@ -63,6 +63,7 @@ My first glimmer of hope came from the success rate of season one (.56 or 56%), 
 One striking issue seems to be with second season in which our league made the switch from 10 teams to 12 teams, adding two Elo virgins to the mix. This resulted in a success rate of just 41%, which is BAD. I also feared that it may have messed up the ratings for season 3.
 
 It may have messed up the ratings for the first half, but here are the results for the second half season 3: (last 33 of 65 games)
+
 ![](Readme/lasthalf.png)
 
 ![](Readme/wow.png)
