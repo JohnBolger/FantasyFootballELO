@@ -25,7 +25,7 @@ The original equation that I started with equally weighs Elo for the performance
 Mean Regression Rate (MRR):
 ![](Readme/mrr.PNG)
 
-I got this idea from FiveThirtyEight’s NFL game predictions. In this equation, β is a value between 0 and 1 that regression each rating to the mean at the beginning of each season.
+In this equation, β is a value between 0 and 1 that regresses each rating to the mean at the beginning of each season. I got this idea from FiveThirtyEight’s NFL game predictions.
 
 https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/
 
