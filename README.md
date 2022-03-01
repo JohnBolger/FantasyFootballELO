@@ -23,10 +23,12 @@ Manager Rating:
 The original equation that I started with equally weighs ELO for the performance vs opponent and performance vs median (above), so the formula was just the basic average of the two ratings(α=0.5). I decided to write the equation in a more general form with α being the determining factor for the weight. I believe the optimal α will be between 0.15 and 0.35, which would mean performance vs median is much more indicative of success than performance vs opponent.  
 
 Mean Regression Rate (MRR):
-![](Ream/mrr.PNG)
+![](Readme/mrr.PNG)
 
 I got this idea from FiveThirtyEight’s NFL game predictions.
-https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/ 
+
+https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/
+
 The NFL model has a mean regression rate of 1/3, fantasy football is much more volatile because each team is completely wiped out each after each season. I believe the optimal β value will be somewhere between 0.5 and .75 due to the high volatility.
 
 ## Results:
