@@ -66,8 +66,13 @@ This is significant.
 I am confident in my methodology, and I would love to get my hands on more data to test my model. My plan is to first rebuild my model in python rather than excel, then familiarize myself with apis, so that I collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Hopefully, I can get permission to access different leagues to test the accuracy of the model.
 
 
-
+# Thanks to
+I was heavily inspired by FiveThirtyEight:
+https://fivethirtyeight.com/ 
 I used this website to quickly visualize binomial distributions:
 https://homepage.divms.uiowa.edu/~mbognar/applets/bin.html 
+I was inspired by the visualization of this article and plan to build a similar dash app sometime in the future:
+https://towardsdatascience.com/developing-a-generalized-elo-rating-system-for-multiplayer-games-b9b495e87802 
+https://poker-elo-dashboard.herokuapp.com/ 
 
 
