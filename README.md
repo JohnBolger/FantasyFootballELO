@@ -51,6 +51,7 @@ My results if you are curious:
  
 ## Conclusion:
 When I first saw the result, my disappointment was immeasurable. I grinded for who knows how many hours just to have my model predict outcomes worse than a coin flip.
+
 Actually, there’s about a 74% chance a coin flip predicts outcomes better than my model:
 ![](Readme/92.png)
  
