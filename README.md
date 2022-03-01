@@ -12,18 +12,19 @@ I collected and inputted all the data for this project manually into excel, whic
 
 ## Equations:
 Elo vs opponent:
-〖V'〗_a=  1/(1+10^(〖(V〗_b-V_a)/400) )
-Elo vs median:
-〖M'〗_a=  1/(1+10^(〖(M〗_b-M_a)/400) )
+![](Readme/vprime.PNG)
 
+Elo vs median:
+![](Readme/mprime.PNG)
 
 Manager Rating:
-〖mRating〗_a= αV_a+(1-α) V_b
+![](Readme/mrating.PNG)
 
 The original equation that I started with equally weighs ELO for the performance vs opponent and performance vs median (above), so the formula was just the basic average of the two ratings(α=0.5). I decided to write the equation in a more general form with α being the determining factor for the weight. I believe the optimal α will be between 0.15 and 0.35, which would mean performance vs median is much more indicative of success than performance vs opponent.  
 
 Mean Regression Rate (MRR):
-〖mRating〗_a=〖mRating〗_a- β(〖mRating〗_a- 〖mRating〗_μ)
+![](Ream/mrr.PNG)
+
 I got this idea from FiveThirtyEight’s NFL game predictions.
 https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/ 
 The NFL model has a mean regression rate of 1/3, fantasy football is much more volatile because each team is completely wiped out each after each season. I believe the optimal β value will be somewhere between 0.5 and .75 due to the high volatility.
@@ -31,40 +32,41 @@ The NFL model has a mean regression rate of 1/3, fantasy football is much more v
 ## Results:
 The initial hypothesized model consisted of an equal weighing of performance equally and a .5 mean regression rate, i.e., α=0.5, β=0.5 (See ELO.5mrr.ipynb for full details). I decided to omit the first 3 weeks of season 1 so that the rating could at least slightly reflect manager skill.
 Full Accuracy:
+![](Readme/s1.png)
  
 Season 1: (50 games)
+![](Readme/s2.png)
  
 Season 2: (78 games)
+![](Readme/stwo.png)
  
 Season 3: (65 games)
+ ![](Readme/s3.png)
  
- 
-
-
-
-
-
-
-
-
 
 My results if you are curious:
+![](Readme/newplot%20(2).png)
  
 ## Conclusion:
 When I first saw the result, my disappointment was immeasurable. I grinded for who knows how many hours just to have my model predict outcomes worse than a coin flip.
 Actually, there’s about a 74% chance a coin flip predicts outcomes better than my model:
+![](Readme/92.png)
  
 Ideally, the red part of the distribution should look like this:
+ ![](Readme/106.png)
  
 With 106 successes in 192 trails, about 55% success, I could confidently say that the model predicts outcomes better than a coin flip. 
 
 My first glimmer of hope came from the success rate of season one (.56 or 56%), which could be a significant indication of an accurate model.
 One striking issue seems to be with second season in which our league made the switch from 10 teams to 12 teams, adding two Elo virgins to the mix. This resulted in a success rate of just 41%, which is BAD. I also feared that it may have messed up the ratings for season 3.
+
 It may have messed up the ratings for the first half, but here are the results for the second half season 3: (last 33 of 65 games)
- 
-Wow!
- 
-This is significant.
+![](Readme/lasthalf.png)
+
+![](Readme/wow.png)
+
+Wow! This is significant.
+
 ## Future:
 I am confident in my methodology, and I would love to get my hands on more data to test my model. My plan is to first rebuild my model in python rather than excel, then familiarize myself with apis, so that I collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Hopefully, I can get permission to access different leagues to test the accuracy of the model.
 
