@@ -47,7 +47,7 @@ Season 3: (65 games)
  ![](Readme/s3.png)
  
 
-My results if you are curious:
+My ratings if you are curious:
 ![](Readme/newplot%20(2).png)
  
 ## Conclusion:
