@@ -33,6 +33,7 @@ The NFL model has a mean regression rate of 1/3, fantasy football is much more v
 
 ## Results:
 The initial hypothesized model consisted of an equal weighing of performance equally and a .5 mean regression rate, i.e., α=0.5, β=0.5 (See ELO.5mrr.ipynb for full details). I decided to omit the first 3 weeks of season 1 so that the rating could at least slightly reflect manager skill.
+
 Full Accuracy:
 ![](Readme/s1.png)
  
