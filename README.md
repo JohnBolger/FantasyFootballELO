@@ -18,7 +18,7 @@ Elo vs median:
 ![](Readme/mprime.PNG)
 
 Manager Rating:
-![](Readme/mrating.PNG)
+![](Readme/mrr.png.png)
 
 The original equation that I started with equally weighs Elo for the performance vs opponent and performance vs median (above), so the formula was just the basic average of the two ratings(α=0.5). I decided to write the equation in a more general form with α being the determining factor for the weight. I believe the optimal α will be between 0.15 and 0.35, which would mean performance vs median is much more indicative of success than performance vs opponent.  
 
