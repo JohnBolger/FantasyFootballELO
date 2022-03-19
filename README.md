@@ -51,26 +51,18 @@ My ratings if you are curious:
 ![](Readme/newplot%20(2).png)
  
 ## Conclusion:
-When I first saw the result, my disappointment was immeasurable. I put in who knows how many hours just to have my rating predict outcomes worse than a coin flip.
+When I first saw the result, I was disapointed. I put in who knows how many hours just to have my rating predict outcomes worse than a coin flip.
 
-Actually, there’s about a 74% chance a coin flip predicts outcomes better than my model:
+Actually, there’s about a 74% chance a coin flip predicts outcomes better than my rating system:
 ![](Readme/92.png)
  
-Ideally, the red part of the distribution should look more like this:
- ![](Readme/106.png)
- 
-With 106 successes in 192 trails, about 55% success, I could confidently say that the model predicts outcomes better than a coin flip. 
 
-My first glimmer of hope came from the success rate of season one (.56 or 56%), which could be a significant indication of a rating that could make accurate predictions.
-One striking issue seems to be with second season in which our league made the switch from 10 teams to 12 teams, adding two new managers to the mix. This resulted in a success rate of just 41%, which is BAD. I also feared that it may have messed up the ratings for season 3.
+My first glimmer of hope came from the success rate of season one (.56 or 56%), which could be a significant indication of a rating that has the potential to make accurate predictions.
+One striking issue seems to be with second season, in which our league made the switch from 10 teams to 12 teams, adding two new managers to the mix. This resulted in a success rate of just 41%, which is terrible. I also feared that it may have messed up the ratings for season 3.
 
 It may have messed up the ratings for the first half, but here are the results for the second half season 3: (last 33 of 65 games)
 
 ![](Readme/lasthalf.png)
-
-![](Readme/wow.png)
-
-Wow! This is significant.
 
 ## Future:
 I am confident in my methodology, and I would love to get my hands on more data to test my equation. My plan is to first rebuild my model in python rather than excel, then familiarize myself with APIs, so that I collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Hopefully, I can get permission to access different leagues to test the accuracy of the model.
