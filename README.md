@@ -66,7 +66,7 @@ It may have messed up the ratings for the first half, but here are the results f
 ![](Readme/lasthalf.png)
 
 ## Future:
-I am confident in my methodology, and I would love to get my hands on more data to test my equation. My plan is to first rebuild my model in python rather than excel, then familiarize myself with APIs, so that I can collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Additionally, I plan to get permission to access different leagues.
+I am confident in my methodology, and I would love to get my hands on more data to test my system. My plan is to first rebuild my model in python rather than excel, then familiarize myself with APIs, so that I can collect data in a less tedious way. At that point I should be able to efficiently test my model and scale it to fit more data. Additionally, I plan to get permission to access different leagues.
 
 
 ## Thanks to:
