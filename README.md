@@ -32,7 +32,7 @@ https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/
 The NFL model has a mean regression rate of 1/3, fantasy football is much more volatile because each team is completely wiped out each after each season. Thus, I believe the optimal β value will be somewhere between 0.5 and .75.
 
 ## Results:
-The initial hypothesized equation consisted of an equal weighing of performance equally and a .5 mean regression rate, i.e., α=0.5, β=0.5 (See ELO.5mrr.ipynb for full details). I decided to omit the first 3 weeks of season 1 so that the rating could at least slightly reflect manager skill. Next to true, is the rate at which the higher rated manager won their matchup. Next to false, is the rate at which the lower rated manager won their matchup.
+The initial hypothesized equation consisted of an equal weighing of performance and a .5 mean regression rate, i.e., α=0.5, β=0.5 (See ELO.5mrr.ipynb for full details). I decided to omit the first 3 weeks of season 1 so that the rating could at least slightly reflect manager skill. Next to true, is the rate at which the higher rated manager won their matchup. Next to false, is the rate at which the lower rated manager won their matchup.
 
 Full Accuracy:
 ![](Readme/s1.png)
