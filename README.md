@@ -1,6 +1,6 @@
 # Fantasy Football Manager Rating
 ![](Readme/lasthalf.png)
-![](Readme/newplot(6).png)
+![](Readme/newplot (6).png)
 ![](Readme/edaelobetter.png)
 ![](Readme/eloexcelsnipbetter.png)
 
