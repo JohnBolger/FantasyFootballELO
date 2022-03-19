@@ -51,11 +51,12 @@ My ratings if you are curious:
 ![](Readme/newplot%20(2).png)
  
 ## Conclusion:
-When I first saw the result, I was disapointed. I put in who knows how many hours just to have my rating predict outcomes worse than a coin flip.
+When I first saw the result, I was disapointed. I put in who knows how many hours just to have my rating predict outcomes worse than a sequence of coin flips.
 
-Actually, there’s about a 74% chance a coin flip predicts outcomes better than my rating system:
+Actually, there’s about a 74% chance a sequence of coin flips predicts outcomes better than my rating system:
 ![](Readme/92.png)
  
+I was relieved, however, when I took a closer look. 
 
 My first glimmer of hope came from the success rate of season one (.56 or 56%), which could be a significant indication of a rating that has the potential to make accurate predictions.
 One striking issue seems to be with second season, in which our league made the switch from 10 teams to 12 teams, adding two new managers to the mix. This resulted in a success rate of just 41%, which is terrible. I also feared that it may have messed up the ratings for season 3.
